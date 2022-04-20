@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+nav{
+  text-align: right;
+}
+
+.header{
+  background-color: rgb(47, 84, 99);
+  padding: 20px 0px;
+}
+.header a{
+  text-decoration: none;
+  padding: 0px 20px;
+  color: rgb(235, 222, 222);
+  transition: .4s;
+  font-size: 19px;
+  letter-spacing: 5px;
+  margin: 10px;
+  
+}
+.header a:hover{
+  color:#3467d6;
+}
+.errors{
+  color: rgb(109, 2, 2);
+}
