@@ -6,7 +6,7 @@ import {useNavigate} from "react-router"
 export const userData=createContext()
 const Userform = () => {
   const navigate=useNavigate()
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit }=useForm();
   const [user,setuser]=useState([])
   const onSubmit = (data) => {
     navigate("/userTable")
